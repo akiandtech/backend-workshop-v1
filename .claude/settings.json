@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "MultiEdit"
+    ],
+    "deny": []
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "defaultShell": "bash",
+  "showTurnDuration": true,
+  "showMessageTimestamps": true
+}
