@@ -7,7 +7,7 @@ Run the app with:
 
 from fastapi import FastAPI
 
-from app.routers import health, messages
+from app.routers import health, messages, tasks
 
 # Create the FastAPI application.
 app = FastAPI(title="Backend Workshop")
@@ -15,3 +15,4 @@ app = FastAPI(title="Backend Workshop")
 # Register the routers so their endpoints are part of the app.
 app.include_router(health.router)
 app.include_router(messages.router)
+app.include_router(tasks.router)
