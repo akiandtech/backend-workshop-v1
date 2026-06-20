@@ -1,0 +1,20 @@
+# The web framework we build the API with.
+fastapi
+
+# The ASGI server that actually runs the FastAPI app (uvicorn app.main:app).
+uvicorn
+
+# Data validation and settings. FastAPI uses this for request/response models.
+pydantic
+
+# The ORM we use to talk to the SQLite database (models, sessions, queries).
+sqlalchemy
+
+# JWT helpers. Not used in this workshop's lessons, but handy if you add auth later.
+python-jose
+
+# Password hashing helpers. Same as above — kept here for when you extend the app.
+passlib
+
+# Lets FastAPI read form data and file uploads (e.g. multipart/form-data).
+python-multipart
