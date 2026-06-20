@@ -127,3 +127,6 @@ dmypy.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Workshop SQLite database (created at runtime by create_all())
+app/database/*.db
